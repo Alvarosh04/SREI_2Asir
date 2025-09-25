@@ -8,9 +8,12 @@
 
 ## Ejemplo 2 - http server
 - Aqui vemos el servidor corriendo en consola
-![Servidor corriendo en consola](<img width="748" height="132" alt="image" src="https://github.com/user-attachments/assets/9d2a6db3-dc2a-4850-ac58-42406456f24b" />
-)
+![Servidor corriendo en consola](ejemplo_2_2.png)
 - Aqui vemos la página en el navegador
-![Página en el navegador]()
+![Página en el navegador](ejemplo_2.png)
 
 ## Ejemplo 3 - dummy web server
+- Aqui vemos el servidor corriendo en consola
+![Servidor corriendo en consola](3_1.png)
+- Aqui vemos la página en el navegador
+![Página en el navegador](3.png)
