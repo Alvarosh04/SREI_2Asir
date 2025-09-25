@@ -2,8 +2,7 @@
 Esto es un repositorio que contiene las actividades de SREI de 2º ASIR
 Ejercicios | Descripción
 ---------|----------
-Actividad 5
-Aqui veremos unos pequeños ejemplo de servidores web
+Actividad 5 | Aqui veremos unos pequeños ejemplo de servidores web
 Ejemplo 1-Servidor simple
 [Servidor corriendo en consola](Captura_eje1.png) | Aqui vemos el servidor corriendo en consola
 [Página en el navegador](ejemplo_1_1.png) | Aqui vemos la página en el navegador 
