@@ -34,17 +34,17 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
         <img width="397" height="21" alt="image" src="https://github.com/user-attachments/assets/aed5cad1-a63e-4be3-a5c8-4a6ce3a7ba74" />
      4. Para ajustar la configuración del firewall usamos UFW para ver los diferentes perfiles usamos un comando
         <img width="330" height="105" alt="image" src="https://github.com/user-attachments/assets/52b76984-5743-48a4-9b1f-455b7b6b67cc" />
-      5. Para permitir tráfico únicamente en el puerto 80 utilizamos el perfil Apache
+     5. Para permitir tráfico únicamente en el puerto 80 utilizamos el perfil Apache
         <img width="398" height="61" alt="image" src="https://github.com/user-attachments/assets/5f46e6e6-4166-487e-9058-418a054b6b0f" />
-      6. Instalamos MySQL
+     6. Instalamos MySQL
         <img width="422" height="26" alt="image" src="https://github.com/user-attachments/assets/52ac1ac9-2894-4e09-8283-0a7155ef3d4e" />
-      7. Con esta secuencia de comandos se eliminarán algunos ajustes predeterminados poco seguros y se bloqueará el acceso a su sistema de base de datos
+     7. Con esta secuencia de comandos se eliminarán algunos ajustes predeterminados poco seguros y se bloqueará el acceso a su sistema de base de datos
         <img width="458" height="21" alt="image" src="https://github.com/user-attachments/assets/8eefd1d9-36c5-4aac-98f0-3f76b55a2649" />
-      8. Despues nos indicara que pongamos yes or no y pondremos (y) aparte  se le solicitará que seleccione un nivel de validación de contraseña ponemos 1
+     8. Despues nos indicara que pongamos yes or no y pondremos (y) aparte  se le solicitará que seleccione un nivel de validación de contraseña ponemos 1
         <img width="621" height="188" alt="image" src="https://github.com/user-attachments/assets/c400d235-934d-44c4-957f-2139f14e4334" />
-      9. Ahora procedemos a instalar PHP
+     9. Ahora procedemos a instalar PHP
         <img width="617" height="25" alt="image" src="https://github.com/user-attachments/assets/2219315a-3a89-4fde-82f7-9c8e49974f7d" />
-      10. Una vez que la instalación se complete, podrá ejecutar el siguiente comando para confirmar su versión de PHP
+     10. Una vez que la instalación se complete, podrá ejecutar el siguiente comando para confirmar su versión de PHP
         <img width="265" height="31" alt="image" src="https://github.com/user-attachments/assets/1aa5854b-e1be-45e3-818a-7f3aef4db758" />
       11. Creamos un host virtual para ello primero creamos el directorio para your_domain de la siguiente manera
         <img width="441" height="24" alt="image" src="https://github.com/user-attachments/assets/2a13d357-d3e2-480b-8925-7f33401e8878" />
