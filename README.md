@@ -23,4 +23,7 @@ Ejemplo 3-dummy web server
 
   Capa de datos (Base de datos) es donde se almacena la información de manera estructurada y segura.Su función es guardar, consultar, modificar o eliminar datos según lo que solicite la capa de lógica. Ejemplos: MySQL, PostgreSQL, SQL Server, Oracle.
 - Una plataforma web es el entorno de desarrollo de software empleado para  diseñar y ejecutar un sitio web; destacan dos plataformas web, LAMP y WISA. Explica en qué consiste cada una de ellas.
-  
+
+   Una plataforma web es el conjunto de programas y servicios que permiten desarrollar, ejecutar y mantener sitios o aplicaciones web.
+Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente por el sistema operativo y las tecnologías que utilizan.
+
