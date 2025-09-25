@@ -30,4 +30,7 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
 - 3. Lee el siguiente artículo e instala Apache en Ubuntu
      1. Para actualizar el índice de paquetes disponibles en los repositorios configurados en tu sistema.
         <img width="347" height="43" alt="image" src="https://github.com/user-attachments/assets/a42a2d4c-9ce4-4caa-9ecf-d37b5b6b4aa3" />
-
+      2. Ahora lo instalamos con sudo apt install apache2
+        <img width="397" height="21" alt="image" src="https://github.com/user-attachments/assets/aed5cad1-a63e-4be3-a5c8-4a6ce3a7ba74" />
+      3. 
+      4. 
