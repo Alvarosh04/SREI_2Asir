@@ -19,8 +19,8 @@ Ejemplo 3-dummy web server
 
   Capa de presentación (Front-end)Es la parte visible para el usuario, la interfaz gráfica que se muestra en el navegador. Su función es mostrar la información y permitir la interacción con el sistema (formularios, botones, menús, etc.). Tecnologías comunes: HTML, CSS, JavaScript
 
-Capa de lógica de negocio (Back-end o lógica de aplicación) es el “cerebro” de la aplicación. Su función es procesar las peticiones del usuario, aplicar reglas de negocio, validar datos y decidir qué información enviar o guardar en la base de datos.Se desarrolla con lenguajes como PHP, Python, Java, C#, Node.js, entre otros.
+  Capa de lógica de negocio (Back-end o lógica de aplicación) es el “cerebro” de la aplicación. Su función es procesar las peticiones del usuario, aplicar reglas de negocio, validar datos y decidir qué información enviar o guardar en la base de datos.Se desarrolla con lenguajes como PHP, Python, Java, C#, Node.js, entre otros.
 
-Capa de datos (Base de datos) es donde se almacena la información de manera estructurada y segura.Su función es guardar, consultar, modificar o eliminar datos según lo que solicite la capa de lógica. Ejemplos: MySQL, PostgreSQL, SQL Server, Oracle.
+  Capa de datos (Base de datos) es donde se almacena la información de manera estructurada y segura.Su función es guardar, consultar, modificar o eliminar datos según lo que solicite la capa de lógica. Ejemplos: MySQL, PostgreSQL, SQL Server, Oracle.
 
   
