@@ -1,6 +1,6 @@
 # SREI
 Esto es un repositorio que contiene las actividades de SREI de 2º ASIR
-Ejercicios | Descripción
+Ejercicios tema 0 | Descripción
 ---------|----------
 Actividad 5 | Aqui veremos unos pequeños ejemplo de servidores web
 Ejemplo 1-Servidor simple
@@ -13,3 +13,7 @@ Ejemplo 3-dummy web server
 [Servidor corriendo en consola](3_1.png) | Aqui vemos el servidor corriendo en consola 
 [Página en el navegador](3.png) | Aqui vemos la página en el navegador 
 
+Ejercicios tema 1 | Descripción
+---------|----------
+Actividad 1
+La arquitectura Web es un modelo compuesto de tres capas, ¿cuáles son y cuál es  la función de cada una de ellas? | 
