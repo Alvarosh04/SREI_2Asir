@@ -27,3 +27,7 @@ Ejemplo 3-dummy web server
    Una plataforma web es el conjunto de programas y servicios que permiten desarrollar, ejecutar y mantener sitios o aplicaciones web.
 Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente por el sistema operativo y las tecnologías que utilizan.
 
+- 3. Lee el siguiente artículo e instala Apache en Ubuntu
+     1. Para actualizar el índice de paquetes disponibles en los repositorios configurados en tu sistema.
+        <img width="347" height="43" alt="image" src="https://github.com/user-attachments/assets/a42a2d4c-9ce4-4caa-9ecf-d37b5b6b4aa3" />
+
