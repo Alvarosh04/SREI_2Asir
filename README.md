@@ -46,11 +46,11 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
         <img width="617" height="25" alt="image" src="https://github.com/user-attachments/assets/2219315a-3a89-4fde-82f7-9c8e49974f7d" />
      10. Una vez que la instalación se complete, podrá ejecutar el siguiente comando para confirmar su versión de PHP
         <img width="265" height="31" alt="image" src="https://github.com/user-attachments/assets/1aa5854b-e1be-45e3-818a-7f3aef4db758" />
-      11. Creamos un host virtual para ello primero creamos el directorio para your_domain de la siguiente manera
-        <img width="441" height="24" alt="image" src="https://github.com/user-attachments/assets/2a13d357-d3e2-480b-8925-7f33401e8878" />
-      12. A continuación, asigne la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual
+     11. Creamos un host virtual para ello primero creamos el directorio para your_domain de la siguiente manera
+         <img width="441" height="24" alt="image" src="https://github.com/user-attachments/assets/2a13d357-d3e2-480b-8925-7f33401e8878" />  
+     12. A continuación, asigne la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual
          <img width="408" height="23" alt="image" src="https://github.com/user-attachments/assets/a16328d9-5bbc-4fd5-ac17-39c9f4fc9c0d" />
-      13. Luego, abra un nuevo archivo de configuración en el directorio sites-available de Apache usando el editor de línea de comandos que prefiera. En este caso, utilizaremos nano
+     13. Luego, abra un nuevo archivo de configuración en el directorio sites-available de Apache usando el editor de línea de comandos que prefiera. En este caso, utilizaremos nano
         <img width="599" height="17" alt="image" src="https://github.com/user-attachments/assets/ea49cb61-a7e9-43ef-a27b-a713021c8f63" />
       14. De esta manera, se creará un nuevo archivo en blanco. Ponemos la siguiente configuración básica
         <img width="481" height="179" alt="image" src="https://github.com/user-attachments/assets/b0218e57-97b1-434e-8fd1-02894783d479" />
