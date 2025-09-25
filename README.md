@@ -13,7 +13,7 @@ Ejemplo 3-dummy web server
 [Servidor corriendo en consola](3_1.png) | Aqui vemos el servidor corriendo en consola 
 [Página en el navegador](3.png) | Aqui vemos la página en el navegador 
 
-Ejercicios tema 1 | Descripción
----------|----------
-Actividad 1
-La arquitectura Web es un modelo compuesto de tres capas,                                                                                                                                                                                            ¿cuáles son y cuál es  la función de cada una de ellas? | 
+## Ejercicios tema 1
+## Actividad 1
+- La arquitectura Web es un modelo compuesto de tres capas,¿cuáles son y cuál es  la función de cada una de ellas?
+  Capa de presentación (Front-end)Es la parte visible para el usuario, la interfaz gráfica que se muestra en el navegador. Su función es mostrar la información y permitir la interacción con el sistema (formularios, botones, menús, etc.). Tecnologías comunes: HTML, CSS, JavaScript 
