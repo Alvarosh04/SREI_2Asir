@@ -55,24 +55,24 @@ Ejemplo 3-dummy web server
 Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente por el sistema operativo y las tecnologías que utilizan.
 
 - 3. Lee el siguiente artículo e instala Apache en Ubuntu
-     1. Para actualizar el índice de paquetes disponibles en los repositorios configurados en tu sistema.
-        <img width="347" height="43" alt="image" src="https://github.com/user-attachments/assets/a42a2d4c-9ce4-4caa-9ecf-d37b5b6b4aa3" />
-     2. Ahora lo instalamos con sudo apt install apache2
-        <img width="397" height="21" alt="image" src="https://github.com/user-attachments/assets/aed5cad1-a63e-4be3-a5c8-4a6ce3a7ba74" />
-     4. Para ajustar la configuración del firewall usamos UFW para ver los diferentes perfiles usamos un comando
-        <img width="330" height="105" alt="image" src="https://github.com/user-attachments/assets/52b76984-5743-48a4-9b1f-455b7b6b67cc" />
-     5. Para permitir tráfico únicamente en el puerto 80 utilizamos el perfil Apache
-        <img width="398" height="61" alt="image" src="https://github.com/user-attachments/assets/5f46e6e6-4166-487e-9058-418a054b6b0f" />
-     6. Instalamos MySQL
-        <img width="422" height="26" alt="image" src="https://github.com/user-attachments/assets/52ac1ac9-2894-4e09-8283-0a7155ef3d4e" />
-     7. Con esta secuencia de comandos se eliminarán algunos ajustes predeterminados poco seguros y se bloqueará el acceso a su sistema de base de datos
-        <img width="458" height="21" alt="image" src="https://github.com/user-attachments/assets/8eefd1d9-36c5-4aac-98f0-3f76b55a2649" />
-     8. Despues nos indicara que pongamos yes or no y pondremos (y) aparte  se le solicitará que seleccione un nivel de validación de contraseña ponemos 1
-        <img width="621" height="188" alt="image" src="https://github.com/user-attachments/assets/c400d235-934d-44c4-957f-2139f14e4334" />
-     9. Ahora procedemos a instalar PHP
-        <img width="617" height="25" alt="image" src="https://github.com/user-attachments/assets/2219315a-3a89-4fde-82f7-9c8e49974f7d" />
-     10. Una vez que la instalación se complete, podrá ejecutar el siguiente comando para confirmar su versión de PHP
-        <img width="265" height="31" alt="image" src="https://github.com/user-attachments/assets/1aa5854b-e1be-45e3-818a-7f3aef4db758" />
+     1. Para actualizar el índice de paquetes disponibles en los repositorios configurados en tu sistema.<br>
+        <img width="347" height="43" alt="image" src="https://github.com/user-attachments/assets/a42a2d4c-9ce4-4caa-9ecf-d37b5b6b4aa3" /><br>
+     2. Ahora lo instalamos con sudo apt install apache2<br>
+        <img width="397" height="21" alt="image" src="https://github.com/user-attachments/assets/aed5cad1-a63e-4be3-a5c8-4a6ce3a7ba74" /><br>
+     4. Para ajustar la configuración del firewall usamos UFW para ver los diferentes perfiles usamos un comando<br>
+        <img width="330" height="105" alt="image" src="https://github.com/user-attachments/assets/52b76984-5743-48a4-9b1f-455b7b6b67cc" /><br>
+     5. Para permitir tráfico únicamente en el puerto 80 utilizamos el perfil Apache<br>
+        <img width="398" height="61" alt="image" src="https://github.com/user-attachments/assets/5f46e6e6-4166-487e-9058-418a054b6b0f" /><br>
+     6. Instalamos MySQL<br>
+        <img width="422" height="26" alt="image" src="https://github.com/user-attachments/assets/52ac1ac9-2894-4e09-8283-0a7155ef3d4e" /><br>
+     7. Con esta secuencia de comandos se eliminarán algunos ajustes predeterminados poco seguros y se bloqueará el acceso a su sistema de base de datos<br>
+        <img width="458" height="21" alt="image" src="https://github.com/user-attachments/assets/8eefd1d9-36c5-4aac-98f0-3f76b55a2649" /><br>
+     8. Despues nos indicara que pongamos yes or no y pondremos (y) aparte  se le solicitará que seleccione un nivel de validación de contraseña ponemos 1<br>
+        <img width="621" height="188" alt="image" src="https://github.com/user-attachments/assets/c400d235-934d-44c4-957f-2139f14e4334" /><br>
+     9. Ahora procedemos a instalar PHP<br>
+        <img width="617" height="25" alt="image" src="https://github.com/user-attachments/assets/2219315a-3a89-4fde-82f7-9c8e49974f7d" /><br>
+     10. Una vez que la instalación se complete, podrá ejecutar el siguiente comando para confirmar su versión de PHP<br>
+        <img width="265" height="31" alt="image" src="https://github.com/user-attachments/assets/1aa5854b-e1be-45e3-818a-7f3aef4db758" /><br>
      11. Creamos un host virtual para ello primero creamos el directorio para your_domain de la siguiente manera
          <img width="441" height="24" alt="image" src="https://github.com/user-attachments/assets/2a13d357-d3e2-480b-8925-7f33401e8878" />  
      12. A continuación, asigne la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual
