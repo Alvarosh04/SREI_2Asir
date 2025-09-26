@@ -73,26 +73,26 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
         <img width="617" height="25" alt="image" src="https://github.com/user-attachments/assets/2219315a-3a89-4fde-82f7-9c8e49974f7d" /><br>
      10. Una vez que la instalación se complete, podrá ejecutar el siguiente comando para confirmar su versión de PHP<br>
         <img width="265" height="31" alt="image" src="https://github.com/user-attachments/assets/1aa5854b-e1be-45e3-818a-7f3aef4db758" /><br>
-     11. Creamos un host virtual para ello primero creamos el directorio para your_domain de la siguiente manera
-         <img width="441" height="24" alt="image" src="https://github.com/user-attachments/assets/2a13d357-d3e2-480b-8925-7f33401e8878" />  
-     12. A continuación, asigne la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual
-         <img width="408" height="23" alt="image" src="https://github.com/user-attachments/assets/a16328d9-5bbc-4fd5-ac17-39c9f4fc9c0d" />
-     13. Luego, abra un nuevo archivo de configuración en el directorio sites-available de Apache usando el editor de línea de comandos que prefiera. En este caso, utilizaremos nano
-        <img width="599" height="17" alt="image" src="https://github.com/user-attachments/assets/ea49cb61-a7e9-43ef-a27b-a713021c8f63" />
-     14. De esta manera, se creará un nuevo archivo en blanco. Ponemos la siguiente configuración básica
-        <img width="481" height="179" alt="image" src="https://github.com/user-attachments/assets/b0218e57-97b1-434e-8fd1-02894783d479" />
-      15. Ahora, puede usar a2ensite para habilitar el nuevo host virtual
-        <img width="370" height="20" alt="image" src="https://github.com/user-attachments/assets/fdeb0173-c5f6-4a86-847b-666faa433f02" />
-      16. Puede ser conveniente deshabilitar el sitio web predeterminado que viene instalado con Apache.
-          <img width="432" height="22" alt="image" src="https://github.com/user-attachments/assets/db75e357-0160-4b5f-b19a-d6aaef740800" />
-      18. Para asegurarse de que su archivo de configuración no contenga errores de sintaxis, ejecute lo siguiente
-          <img width="421" height="29" alt="image" src="https://github.com/user-attachments/assets/0ff30301-50c9-48e5-89c3-d8e2ad54b8fc" />
-      20. Por último, volvemos a cargar Apache para que estos cambios surtan efecto
-          <img width="446" height="23" alt="image" src="https://github.com/user-attachments/assets/10eeb13b-8c1c-45eb-ab46-68040059b4bc" />
-      22. Como nuestro sitio web esta vacio creamos un index.html
-          <img width="477" height="21" alt="image" src="https://github.com/user-attachments/assets/f47a8823-130c-4f4a-b78f-26633c6efe22" />
-      24. Incluimos el siguiente contenido
-          <img width="509" height="75" alt="image" src="https://github.com/user-attachments/assets/aa78fd6a-86bd-481c-acad-9e36c4705ae9" />
+     11. Creamos un host virtual para ello primero creamos el directorio para your_domain de la siguiente manera<br>
+         <img width="441" height="24" alt="image" src="https://github.com/user-attachments/assets/2a13d357-d3e2-480b-8925-7f33401e8878" /><br>
+     12. A continuación, asigne la propiedad del directorio con la variable de entorno $USER, que hará referencia a su usuario de sistema actual<br>
+         <img width="408" height="23" alt="image" src="https://github.com/user-attachments/assets/a16328d9-5bbc-4fd5-ac17-39c9f4fc9c0d" /><br>
+     13. Luego, abra un nuevo archivo de configuración en el directorio sites-available de Apache usando el editor de línea de comandos que prefiera. En este caso, utilizaremos nano<br>
+        <img width="599" height="17" alt="image" src="https://github.com/user-attachments/assets/ea49cb61-a7e9-43ef-a27b-a713021c8f63" /><br>
+     14. De esta manera, se creará un nuevo archivo en blanco. Ponemos la siguiente configuración básica<br>
+        <img width="481" height="179" alt="image" src="https://github.com/user-attachments/assets/b0218e57-97b1-434e-8fd1-02894783d479" /><br>
+      15. Ahora, puede usar a2ensite para habilitar el nuevo host virtual<br>
+        <img width="370" height="20" alt="image" src="https://github.com/user-attachments/assets/fdeb0173-c5f6-4a86-847b-666faa433f02" /><br>
+      16. Puede ser conveniente deshabilitar el sitio web predeterminado que viene instalado con Apache.<br>
+          <img width="432" height="22" alt="image" src="https://github.com/user-attachments/assets/db75e357-0160-4b5f-b19a-d6aaef740800" /><br>
+      18. Para asegurarse de que su archivo de configuración no contenga errores de sintaxis, ejecute lo siguiente<br>
+          <img width="421" height="29" alt="image" src="https://github.com/user-attachments/assets/0ff30301-50c9-48e5-89c3-d8e2ad54b8fc" /><br>
+      20. Por último, volvemos a cargar Apache para que estos cambios surtan efecto<br>
+          <img width="446" height="23" alt="image" src="https://github.com/user-attachments/assets/10eeb13b-8c1c-45eb-ab46-68040059b4bc" /><br>
+      22. Como nuestro sitio web esta vacio creamos un index.html<br>
+          <img width="477" height="21" alt="image" src="https://github.com/user-attachments/assets/f47a8823-130c-4f4a-b78f-26633c6efe22" /><br>
+      24. Incluimos el siguiente contenido<br>
+          <img width="509" height="75" alt="image" src="https://github.com/user-attachments/assets/aa78fd6a-86bd-481c-acad-9e36c4705ae9" /><br>
       25. 
       26. 
  
