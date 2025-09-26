@@ -2,6 +2,19 @@
 Esto es un repositorio que contiene las actividades de SREI de 2º ASIR
 Ejercicios tema 0 | Descripción
 ---------|----------
+Actividad 1 | HTTP Introduction |
+¿Quién, dónde y cuándo se crea el primer servidor web? | El primer servidor web fue creado por Tim Berners-Lee en el CERN (Suiza) en el año 1990, usando una computadora NeXT. El software se llamó CERN httpd y el primer sitio web se publicó en 1991.
+¿Qué es pila de protocolos usados por http? | La pila de protocolos usada por HTTP está formada por varias capas: en la aplicación se encuentra HTTP, en la capa de transporte TCP, en la red IP, y finalmente la capa física (Ethernet, Wi-Fi, etc.). En conjunto, la comunicación sigue el orden: HTTP → TCP → IP → red física.
+¿Componentes de una URL? | Una URL está compuesta por varios elementos: el esquema o protocolo (ejemplo: https), el host o nombre de dominio (ejemplo: www.ejemplo.com
+), el puerto (opcional, como :8080), la ruta del recurso (ejemplo: /carpeta/pagina.html), los parámetros o query string (ejemplo: ?nombre=juan) y, opcionalmente, un fragmento o ancla (ejemplo: #seccion2).
+¿Pasos en la recuperación de una página web mediante HTTP? | Los pasos para recuperar una página web mediante HTTP son: el navegador consulta a un servidor DNS para obtener la dirección IP, establece una conexión TCP con el servidor (puerto 80 para HTTP o 443 para HTTPS), envía una petición HTTP, el servidor procesa la solicitud y devuelve una respuesta HTTP, y finalmente el navegador interpreta el contenido recibido y lo muestra en pantalla.
+Diferencia entre páginas dinámicas y estáticas | Las páginas web pueden ser estáticas o dinámicas. Las páginas estáticas tienen un contenido fijo almacenado en archivos HTML y no cambian salvo que se modifique el archivo. En cambio, las páginas dinámicas se generan en tiempo real utilizando lenguajes como PHP, Python o Node.js, y su contenido puede variar según el usuario o la interacción.
+¿Cómo usar telnet para acceder a un servidor web? | Telnet se puede usar para acceder manualmente a un servidor web a través del puerto 80. Por ejemplo, con el comando telnet www.ejemplo.com 80. Una vez conectado, se escribe: GET / HTTP/1.1
+Host: www.ejemplo.com
+Request. Métodos principales | En las peticiones HTTP (request) existen varios métodos principales: GET (solicita un recurso), POST (envía datos al servidor), PUT (crea o actualiza un recurso), DELETE (elimina un recurso), HEAD (igual que GET pero solo devuelve cabeceras) y OPTIONS (muestra los métodos soportados por el servidor).
+Response. Códigos | En las respuestas HTTP (response) los códigos se agrupan en varias categorías: 1xx informativos (ejemplo: 100 Continue), 2xx éxito (ejemplo: 200 OK, 201 Created), 3xx redirecciones (ejemplo: 301 Moved Permanently, 302 Found), 4xx errores del cliente (ejemplo: 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found) y 5xx errores del servidor (ejemplo: 500 Internal Server Error, 503 Service Unavailable).
+Content type. Tipos principales | El encabezado Content-Type indica el tipo de contenido enviado. Los más comunes son: text/html (páginas web), text/plain (texto plano), application/json (datos en JSON), application/xml (XML), image/jpeg o image/png (imágenes), video/mp4 o audio/mpeg (multimedia) y multipart/form-data (formularios con archivos adjuntos).
+
 Actividad 5 | Aqui veremos unos pequeños ejemplo de servidores web
 Ejemplo 1-Servidor simple
 [Servidor corriendo en consola](Captura_eje1.png) | Aqui vemos el servidor corriendo en consola
