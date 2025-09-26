@@ -12,7 +12,7 @@ Diferencia entre páginas dinámicas y estáticas | Las páginas web pueden ser 
 Request. Métodos principales | En las peticiones HTTP (request) existen varios métodos principales: GET (solicita un recurso), POST (envía datos al servidor), PUT (crea o actualiza un recurso), DELETE (elimina un recurso), HEAD (igual que GET pero solo devuelve cabeceras) y OPTIONS (muestra los métodos soportados por el servidor).
 Response. Códigos | En las respuestas HTTP (response) los códigos se agrupan en varias categorías: 1xx informativos (ejemplo: 100 Continue), 2xx éxito (ejemplo: 200 OK, 201 Created), 3xx redirecciones (ejemplo: 301 Moved Permanently, 302 Found), 4xx errores del cliente (ejemplo: 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found) y 5xx errores del servidor (ejemplo: 500 Internal Server Error, 503 Service Unavailable).
 Content type. Tipos principales | El encabezado Content-Type indica el tipo de contenido enviado. Los más comunes son: text/html (páginas web), text/plain (texto plano), application/json (datos en JSON), application/xml (XML), image/jpeg o image/png (imágenes), video/mp4 o audio/mpeg (multimedia) y multipart/form-data (formularios con archivos adjuntos).
- | 
+. | .
 Actividad 2 | UDP and TCP: Comparison of Transport Protocols
 Diferencias entre udp y tcp? | TCP es un protocolo orientado a la conexión, garantiza la entrega de datos, mantiene el orden correcto de los paquetes y controla flujo y congestión. Es más confiable pero más lento y con mayor sobrecarga. UDP es un protocolo sin conexión, no garantiza entrega ni orden, no tiene control de flujo ni congestión, y sus cabeceras son ligeras. Es más rápido pero menos confiable.
 ¿Qué aplicaciones usan tcp? | HTTP/HTTPS, SMTP, POP, IMAP, SSH, FTP, Telnet y la mayoría de conexiones a bases de datos.
@@ -20,6 +20,7 @@ Diferencias entre udp y tcp? | TCP es un protocolo orientado a la conexión, gar
 ¿Qué capa almacena el puerto? | El puerto pertenece a la capa de transporte, 
 ¿Qué capa almacena la dirección IP? | La dirección IP pertenece a la capa de red.
 ¿Qué es three-way handshake? | El three-way handshake es el proceso de establecimiento de conexión en TCP. Funciona en tres pasos: primero, el cliente envía un segmento SYN al servidor; luego, el servidor responde con un SYN-ACK, reconociendo la petición e indicando su número de secuencia; finalmente, el cliente envía un ACK confirmando la recepción
+. | .
 Actividad 5 | Aqui veremos unos pequeños ejemplo de servidores web
 Ejemplo 1-Servidor simple
 [Servidor corriendo en consola](Captura_eje1.png) | Aqui vemos el servidor corriendo en consola
