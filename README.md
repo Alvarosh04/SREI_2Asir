@@ -21,6 +21,14 @@ Diferencias entre udp y tcp? | TCP es un protocolo orientado a la conexión, gar
 ¿Qué capa almacena la dirección IP? | La dirección IP pertenece a la capa de red.
 ¿Qué es three-way handshake? | El three-way handshake es el proceso de establecimiento de conexión en TCP. Funciona en tres pasos: primero, el cliente envía un segmento SYN al servidor; luego, el servidor responde con un SYN-ACK, reconociendo la petición e indicando su número de secuencia; finalmente, el cliente envía un ACK confirmando la recepción
 . | .
+Actividad 4 | Busca información sobre el comando curl y muestra al menos cinco ejemplos de uso
+ Información | El comando curl (Client for URLs) es una herramienta de línea de comandos que permite transferir datos desde o hacia un servidor mediante URLs. Es muy flexible porque soporta múltiples protocolos como HTTP, HTTPS, FTP, SFTP, SCP, SMTP o LDAP. Con curl se pueden hacer peticiones web, descargar y subir archivos, enviar formularios, trabajar con APIs, manejar autenticación, seguir redirecciones o añadir cabeceras personalizadas. Su sintaxis básica es curl [opciones] URL.
+Ejemplo 1 Petición GET simple | curl https://www.ejemplo.com/
+Ejemplo 2 Guardar la respuesta en un archivo | curl -o pagina.html https://www.ejemplo.com/
+Ejemplo 3 Obtener solo las cabeceras (HEAD request) | curl -I https://www.ejemplo.com/
+Ejemplo 4 Enviar datos con POST (formulario o JSON) | curl -d "campo1=valor1&campo2=valor2" https://api.ejemplo.com/recurso
+Ejemplo 5 Seguir redirecciones automáticamente | curl -L https://ejemplo.com/redirige
+. | .
 Actividad 5 | Aqui veremos unos pequeños ejemplo de servidores web
 Ejemplo 1-Servidor simple
 [Servidor corriendo en consola](Captura_eje1.png) | Aqui vemos el servidor corriendo en consola
