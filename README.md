@@ -79,7 +79,7 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
          <img width="408" height="23" alt="image" src="https://github.com/user-attachments/assets/a16328d9-5bbc-4fd5-ac17-39c9f4fc9c0d" />
      13. Luego, abra un nuevo archivo de configuración en el directorio sites-available de Apache usando el editor de línea de comandos que prefiera. En este caso, utilizaremos nano
         <img width="599" height="17" alt="image" src="https://github.com/user-attachments/assets/ea49cb61-a7e9-43ef-a27b-a713021c8f63" />
-      14. De esta manera, se creará un nuevo archivo en blanco. Ponemos la siguiente configuración básica
+     14. De esta manera, se creará un nuevo archivo en blanco. Ponemos la siguiente configuración básica
         <img width="481" height="179" alt="image" src="https://github.com/user-attachments/assets/b0218e57-97b1-434e-8fd1-02894783d479" />
       15. Ahora, puede usar a2ensite para habilitar el nuevo host virtual
         <img width="370" height="20" alt="image" src="https://github.com/user-attachments/assets/fdeb0173-c5f6-4a86-847b-666faa433f02" />
