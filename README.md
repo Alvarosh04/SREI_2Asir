@@ -101,7 +101,7 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
           <img width="414" height="52" alt="image" src="https://github.com/user-attachments/assets/027a570a-01a7-46f9-a368-39212c49e7b6" /><br>
       28.  Ahora que dispone de una ubicación personalizada para alojar los archivos y las carpetas de su sitio web, crearemos una secuencia de comandos PHP para ello creamos un archivo nuevo llamado info.php<br>
       <img width="422" height="38" alt="image" src="https://github.com/user-attachments/assets/2015ee16-fba0-4802-adbf-48597246841a" /><br>
-      29. Con el siguiente codigo se abrirá un archivo vacío
+      29. Con el siguiente codigo se abrirá un archivo vacío<br>
     <img width="177" height="71" alt="image" src="https://github.com/user-attachments/assets/7e9d1242-49de-4083-9acb-6544a5a6160b" /><br>
       30. 
       31. 
