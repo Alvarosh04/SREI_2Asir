@@ -90,11 +90,21 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
       20. Por último, volvemos a cargar Apache para que estos cambios surtan efecto<br>
           <img width="446" height="23" alt="image" src="https://github.com/user-attachments/assets/10eeb13b-8c1c-45eb-ab46-68040059b4bc" /><br>
       22. Como nuestro sitio web esta vacio creamos un index.html<br>
-          <img width="477" height="21" alt="image" src="https://github.com/user-attachments/assets/f47a8823-130c-4f4a-b78f-26633c6efe22" /><br>
+          <img width="491" height="49" alt="image" src="https://github.com/user-attachments/assets/ac8df88d-5f52-4ecc-b9da-7d30603c284d" /><br>
       24. Incluimos el siguiente contenido<br>
-          <img width="509" height="75" alt="image" src="https://github.com/user-attachments/assets/aa78fd6a-86bd-481c-acad-9e36c4705ae9" /><br>
-      25. 
-      26. 
+          <img width="810" height="141" alt="image" src="https://github.com/user-attachments/assets/f020070b-f82e-46be-b1b0-34ed842dabb7" /><br>
+      25. Para cambiar el comportamiento, deberemos editar el archivo /etc/apache2/mods-enabled/dir.conf<br>
+          <img width="609" height="45" alt="image" src="https://github.com/user-attachments/assets/4ccc8a10-1ceb-4396-8eaf-176d86a65fa8" /><br>
+      26.  Modificamos el orden en el que el archivo index.php se ponga el primero<br>
+          <img width="609" height="45" alt="image" src="https://github.com/user-attachments/assets/2c319603-4eb5-45d1-8eff-114f3a294de4" /><br>
+      27. Después de guardar y cerrar el archivo, deberá volver a cargar Apache para que los cambios surtan efecto<br>
+          <img width="414" height="52" alt="image" src="https://github.com/user-attachments/assets/027a570a-01a7-46f9-a368-39212c49e7b6" /><br>
+      28.  Ahora que dispone de una ubicación personalizada para alojar los archivos y las carpetas de su sitio web, crearemos una secuencia de comandos PHP para ello creamos un archivo nuevo llamado info.php<br>
+      <img width="422" height="38" alt="image" src="https://github.com/user-attachments/assets/2015ee16-fba0-4802-adbf-48597246841a" /><br>
+      29. Con el siguiente codigo se abrirá un archivo vacío
+    <img width="177" height="71" alt="image" src="https://github.com/user-attachments/assets/7e9d1242-49de-4083-9acb-6544a5a6160b" /><br>
+      30. 
+      31. 
  
 
           
