@@ -115,16 +115,15 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
          3. Ahora entraremos en el virtualhost para cambiarlo tambien<br>
         <img width="1102" height="69" alt="image" src="https://github.com/user-attachments/assets/a902348b-f2a4-41f1-95bc-f9534fba4361" /><br>
          4. La primera linea que nos vendra <VirtualHost *:80> la duplicamos pero poneos 81<br>
-        <img width="767" height="307" alt="image" src="https://github.com/user-attachments/assets/05b84d96-c5f6-4db4-903e-03007b6f8941" /><br>
+         <img width="762" height="528" alt="image" src="https://github.com/user-attachments/assets/e7ecbab1-81c3-45f0-b5ef-bd2d1d191a61" /><br>
          5. Reiniciamos Apache para aplicar cambios<br>
         <img width="1061" height="39" alt="image" src="https://github.com/user-attachments/assets/ed64300d-b5ef-43c5-9860-c4e608626cb7" /><br>
          6. Por defecto UFW no tiene un perfil para Apache en 81, así que hay que abrirlo manualmente<br>
          <img width="962" height="40" alt="image" src="https://github.com/user-attachments/assets/175c5b2a-0193-47fb-abc6-ed47a87ba3c4" /><br>
-         7. Confirmamos que este activo
+         7. Confirmamos que este activo<br>
         <img width="890" height="389" alt="image" src="https://github.com/user-attachments/assets/e788356e-f6fc-4889-b9ff-a1b5d17b2dde" /><br>
-         8. 
-
-          
+         8. Como podemo0s comprobar funciona correctamente en el puerto 81<br>
+         <img width="722" height="711" alt="image" src="https://github.com/user-attachments/assets/f9e11f7c-627f-4380-9071-da537f950058" /><br>
       3. 
  
 
