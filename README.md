@@ -104,7 +104,28 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
       29. Con el siguiente codigo se abrirá un archivo vacío<br>
     <img width="177" height="71" alt="image" src="https://github.com/user-attachments/assets/7e9d1242-49de-4083-9acb-6544a5a6160b" /><br>
  
- - 4. Configuración de apache 
+ - 4. Configuración de apache<br>
+      1. Primero comprobamos que apache funcione correctamente y este activado<br>
+      <img width="959" height="30" alt="image" src="https://github.com/user-attachments/assets/63fa841f-11d9-474c-86e7-b1d279447402" /><br>
+      2. Apache utilizará el puerto 81 además del 80<br>
+         1. Editamos el archivo de puertos de Apache<br>
+         <img width="1087" height="33" alt="image" src="https://github.com/user-attachments/assets/ea07b92d-40f3-4806-a011-0c484b89545a" /><br>
+         2. Dentro le agregaremos Listen 81 debajo de Listen 80<br>
+          <img width="1085" height="675" alt="image" src="https://github.com/user-attachments/assets/dd6c00ae-a1d1-4a33-9f9c-a1dcb07acd90" /><br>
+         3. Ahora entraremos en el virtualhost para cambiarlo tambien<br>
+        <img width="1102" height="69" alt="image" src="https://github.com/user-attachments/assets/a902348b-f2a4-41f1-95bc-f9534fba4361" /><br>
+         4. La primera linea que nos vendra <VirtualHost *:80> la duplicamos pero poneos 81<br>
+        <img width="767" height="307" alt="image" src="https://github.com/user-attachments/assets/05b84d96-c5f6-4db4-903e-03007b6f8941" /><br>
+         5. Reiniciamos Apache para aplicar cambios<br>
+        <img width="1061" height="39" alt="image" src="https://github.com/user-attachments/assets/ed64300d-b5ef-43c5-9860-c4e608626cb7" /><br>
+         6. Por defecto UFW no tiene un perfil para Apache en 81, así que hay que abrirlo manualmente<br>
+         <img width="962" height="40" alt="image" src="https://github.com/user-attachments/assets/175c5b2a-0193-47fb-abc6-ed47a87ba3c4" /><br>
+         7. Confirmamos que este activo
+        <img width="890" height="389" alt="image" src="https://github.com/user-attachments/assets/e788356e-f6fc-4889-b9ff-a1b5d17b2dde" /><br>
+         8. 
+
+          
+      3. 
  
 
           
