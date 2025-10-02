@@ -135,7 +135,18 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
          <img width="1064" height="27" alt="image" src="https://github.com/user-attachments/assets/7c5e9fa7-1b38-4d45-a67c-c8fe6e148fc0" /><br>
          3.5 Co mo podemos ver ya funciona con el dominio<br>
          <img width="715" height="471" alt="image" src="https://github.com/user-attachments/assets/ede8790a-3026-4686-a837-7543c22bcfad" /><br>
-      5. Cambia la directiva “ServerTokens” para mostrar el nombre del producto.
+      5. Cambia la directiva “ServerTokens” para mostrar el nombre del producto.<br>
+         5.1 Editamos el archivo de configuración principal de Apache<br>
+		 <img width="1103" height="61" alt="image" src="https://github.com/user-attachments/assets/f498888c-2945-4657-b522-19d6e9c3b3bb" /><br>
+         5.2 Busca la línea ServerTokens OS y la cambiamos por ServerTokens Prod<br>
+		 <img width="1008" height="605" alt="image" src="https://github.com/user-attachments/assets/ed3d9de4-1bab-4e89-b909-e8baa29e7014" /><br>
+         5.3 Reiniciamos Apache para aplicar cambios<br>
+		 <img width="1035" height="40" alt="image" src="https://github.com/user-attachments/assets/4ac7b71d-53de-4f22-9dd8-4724b67cf0a0" /><br>
+		 5.4 Aqui vemos como ha funcionado<br>
+		 <img width="978" height="313" alt="image" src="https://github.com/user-attachments/assets/41484434-e11f-4a5c-838a-f42cc6aa999a" /><br>
+
+		 
+
 	      
 
  
