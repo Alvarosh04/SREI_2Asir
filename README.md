@@ -146,7 +146,7 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
 		 <img width="978" height="313" alt="image" src="https://github.com/user-attachments/assets/41484434-e11f-4a5c-838a-f42cc6aa999a" /><br>
 
 		 
-
+En la actividad 7 activar mod_rewrite antes que nada
 	      
 
  
