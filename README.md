@@ -110,7 +110,7 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
       2 Apache utilizará el puerto 81 además del 80<br>
          2.1 Editamos el archivo de puertos de Apache<br>
          <img width="1087" height="33" alt="image" src="https://github.com/user-attachments/assets/ea07b92d-40f3-4806-a011-0c484b89545a" /><br>
-         2.2. Dentro le agregaremos Listen 81 debajo de Listen 80<br>
+         2.2 Dentro le agregaremos Listen 81 debajo de Listen 80<br>
           <img width="1085" height="675" alt="image" src="https://github.com/user-attachments/assets/dd6c00ae-a1d1-4a33-9f9c-a1dcb07acd90" /><br>
          2.3. Ahora entraremos en el virtualhost para cambiarlo tambien<br>
         <img width="1102" height="69" alt="image" src="https://github.com/user-attachments/assets/a902348b-f2a4-41f1-95bc-f9534fba4361" /><br>
