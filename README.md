@@ -148,7 +148,8 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
 - 5 Actividad #3 <br>
 	  1 Crea un directorio llamado "dir1" y otro llamado "dir2"<br>
 		<img width="609" height="136" alt="image" src="https://github.com/user-attachments/assets/ef0a1122-24f9-46f0-a691-053f364cc3ca" /><br>
-      2 Explica qué diferencia existe entre ambos y muestra su equivalencia con la directiva Require.Basicamente la diferencia esta en que el el primer comando primero se niega a todos (Deny from all), luego se permiten las IPs que coincidan con Allow y así solo 192.168.1.100 tiene acceso. Y en el segundo primero se permiten las IPs listadas en Allow, pero después se aplican las reglas Deny. En este caso, el efecto final puede ser diferente según el orden, pero generalmente predomina el “Deny” final. Sin embargo, en la práctica, el primer ejemplo (Deny,Allow) es el más común para controlar acceso.<br>
+      2 Explica qué diferencia existe entre ambos y muestra su equivalencia con la directiva Require.<br>
+  Basicamente la diferencia esta en que el el primer comando primero se niega a todos (Deny from all), luego se permiten las IPs que coincidan con Allow y así solo 192.168.1.100 tiene acceso. Y en el segundo primero se permiten las IPs listadas en Allow, pero después se aplican las reglas Deny. En este caso, el efecto final puede ser diferente según el orden, pero generalmente predomina el “Deny” final. Sin embargo, en la práctica, el primer ejemplo (Deny,Allow) es el más común para controlar acceso.<br>
 	  <img width="278" height="269" alt="image" src="https://github.com/user-attachments/assets/ea080c42-a85d-4a69-af80-c3856709d1c6" /><br
 	 3 Para dir1<br>
   		3.1 Permite el acceso de las peticiones provenientes de 10.3.0.1007<br>
