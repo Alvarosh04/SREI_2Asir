@@ -213,7 +213,7 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
 -7 Actividad #5 <br>
 	Reescritura<br>
 		Editamos el archivo de configuración<br>
-		<img width="747" height="454" alt="image" src="https://github.com/user-attachments/assets/045b31df-868c-4887-abd3-79dad8d1fc69" /><br>
+		<img width="468" height="316" alt="image" src="https://github.com/user-attachments/assets/756006bf-ef4e-4a34-a1d2-ccbcca2f090b" /><br>
 		Creamos el archivo  /var/www/html/operacion.php<br>
 		<img width="747" height="36" alt="image" src="https://github.com/user-attachments/assets/e9a711a3-f14f-4e73-b486-83e93595f1a6" /><br>
 		Pegamos lo siguiente<br>
@@ -221,6 +221,36 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
 		<img width="673" height="452" alt="image" src="https://github.com/user-attachments/assets/4d95e92c-8235-4eb3-9cf5-c93cd750a445" /><br>
 		Reiniciamos<br>
 		<img width="736" height="26" alt="image" src="https://github.com/user-attachments/assets/5843a265-954a-4b2a-a4df-79dd6b637aba" /><br>
+		Y en el navegador ponemos esto y nos debería dar el resultado<br>
+		<img width="401" height="102" alt="image" src="https://github.com/user-attachments/assets/cc2ff66e-0e3d-4a1b-81d4-edc91dd52835" /><br>
+-8 Actividad #6<br>
+	Creamos la estructura del directorio<br>
+	<img width="730" height="64" alt="image" src="https://github.com/user-attachments/assets/01c6f9b7-d359-41d9-9404-452a2c99e340" /><br>
+	Le damos permisos<br>
+	<img width="552" height="91" alt="image" src="https://github.com/user-attachments/assets/66685f6f-b1e7-4e76-b0c1-20f97bdacdb3" /><br>
+	Nos aseguramos que el permiso de lectura pueda ser aplicado a archivos<br>
+	<img width="546" height="45" alt="image" src="https://github.com/user-attachments/assets/fdfcb099-5b5e-4819-9d8d-abc8f13dbb49" /><br>
+	Creamos una pagina de prueba para cada VirtualHost, primero con ejemplo.com<br>
+	<img width="542" height="243" alt="image" src="https://github.com/user-attachments/assets/0dc73642-8442-49c5-bb9a-93e0bde3dcfc" /><br>
+	Ahora el de prueba.com<br>
+	<img width="547" height="226" alt="image" src="https://github.com/user-attachments/assets/02f7a5c4-02f7-4d0c-b289-dd2f07e79216" /><br>
+	Creamo nuevos archivos VirtualHost, primero con ejemplo.com<br>
+	<img width="520" height="157" alt="image" src="https://github.com/user-attachments/assets/7425feb4-72ab-4c2c-9c64-92f84435e421" /><br>
+	Ahora con prueba.com<br>
+	<img width="486" height="195" alt="image" src="https://github.com/user-attachments/assets/d1d36092-3f72-4abc-9a15-f5d52a5c2195" /><br>
+	Habilitamos los nuevos archivos VirtualHost<br>
+	<img width="540" height="68" alt="image" src="https://github.com/user-attachments/assets/b419da7d-1851-4b13-b000-102f6926e9e4" /><br>
+	
+
+
+	
+
+
+	
+
+
+	
+
 
 		
 
