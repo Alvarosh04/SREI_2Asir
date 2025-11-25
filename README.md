@@ -104,7 +104,7 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
       29 Con el siguiente codigo se abrirá un archivo vacío<br>
     <img width="177" height="71" alt="image" src="https://github.com/user-attachments/assets/7e9d1242-49de-4083-9acb-6544a5a6160b" /><br>
 
-   - 4 Configuración de apache<br>
+- 4 Configuración de apache<br>
       1 Primero comprobamos que apache funcione correctamente y este activado<br>
       <img width="959" height="30" alt="image" src="https://github.com/user-attachments/assets/63fa841f-11d9-474c-86e7-b1d279447402" /><br>
       2 Apache utilizará el puerto 81 además del 80<br>
@@ -150,7 +150,7 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
 		<img width="609" height="136" alt="image" src="https://github.com/user-attachments/assets/ef0a1122-24f9-46f0-a691-053f364cc3ca" /><br>
       2 Explica qué diferencia existe entre ambos y muestra su equivalencia con la directiva Require.<br>
   Basicamente la diferencia esta en que el el primer comando primero se niega a todos (Deny from all), luego se permiten las IPs que coincidan con Allow y así solo 192.168.1.100 tiene acceso. Y en el segundo primero se permiten las IPs listadas en Allow, pero después se aplican las reglas Deny. En este caso, el efecto final puede ser diferente según el orden, pero generalmente predomina el “Deny” final. Sin embargo, en la práctica, el primer ejemplo (Deny,Allow) es el más común para controlar acceso.<br>
-	  <img width="278" height="269" alt="image" src="https://github.com/user-attachments/assets/ea080c42-a85d-4a69-af80-c3856709d1c6" /><br
+	  <img width="278" height="269" alt="image" src="https://github.com/user-attachments/assets/ea080c42-a85d-4a69-af80-c3856709d1c6" /><br>
 	 3 Para dir1<br>
   		3.1 Permite el acceso de las peticiones provenientes de 10.3.0.1007<br>
   		3.2 Permite el acceso desde "marisma.intranet"<br>
@@ -169,8 +169,74 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
 			 <img width="792" height="64" alt="image" src="https://github.com/user-attachments/assets/d4b271f3-1139-4b59-9603-4e54a191a7cf" /><br>
 			 Agregamos lo siguiente<br>
 			 <img width="810" height="170" alt="image" src="https://github.com/user-attachments/assets/53da1c9c-3525-4a14-873a-5970a038566c" /><br>
+- 6 Actividad #4 <br>
+  	Escribe las expresiones regulares para los siguientes supuestos:<br>
+		Primero crearemos un archivo txt con nano<br>
+		<img width="493" height="439" alt="image" src="https://github.com/user-attachments/assets/8c8110d1-7e7c-492c-b56c-bb61d19bb122" /><br>
+		<img width="538" height="438" alt="image" src="https://github.com/user-attachments/assets/49221381-7fce-4761-95a5-acc8c41f6913" /><br>
+		Directorios en /www/ cuyo nombre consista en tres dígitos.<br>
+		<img width="785" height="83" alt="image" src="https://github.com/user-attachments/assets/6b6eacda-4723-43e1-a952-b6bd078ba711" /><br>
+		Ficheros: *.gif, *.jpeg, *.jpg, *.png .+\.(gif | jpe?g | png )<br>
+		<img width="776" height="122" alt="image" src="https://github.com/user-attachments/assets/09150087-92cf-4393-bd07-0c534b9e534d" /><br>
+		Números enteros y decimales<br>
+		<img width="742" height="450" alt="image" src="https://github.com/user-attachments/assets/0f808481-bb18-4747-a52d-8c3c88ebda5b" /><br>
+		Números de teléfono en el formato Americano: 123-123-1234<br>
+		<img width="784" height="82" alt="image" src="https://github.com/user-attachments/assets/c34b5359-f8dd-4b90-857e-5b462d0c06a3" /><br>
+		Palabras<br>
+		<img width="769" height="125" alt="image" src="https://github.com/user-attachments/assets/23348011-4b83-4a91-bbc3-dbae9d5f08f2" /><br>
+		Códigos hexadecimales de color de 24 o 32 bits<br>
+		<img width="788" height="128" alt="image" src="https://github.com/user-attachments/assets/f233b244-1ee5-43da-a952-39bd2cddfa42" /><br>
+		Palabras de 4 letras<br>
+		<img width="762" height="189" alt="image" src="https://github.com/user-attachments/assets/b1492a8b-eb57-4adb-a6b2-4453c0f588fc" /><br>
+		Número entero sin signo<br>7
+  		<img width="738" height="249" alt="image" src="https://github.com/user-attachments/assets/b5e74c93-3bda-48ce-b2f0-f514776d1906" /><br>
+		Número entero con signo<br>
+		<img width="768" height="290" alt="image" src="https://github.com/user-attachments/assets/406a6d9c-8d03-4468-b086-57045898d159" /><br>
+		Números reales<br>
+		<img width="785" height="475" alt="image" src="https://github.com/user-attachments/assets/33d11f4a-d2ed-4cff-af87-5f65d593f279" /><br>
+		Número reales con exponente<br>
+		<img width="783" height="350" alt="image" src="https://github.com/user-attachments/assets/3a79ece4-b947-42b2-8abf-74180e723163" /><br>
+		Email Y Números del 0 a 255. Estos dos los vamos a hacer en un archivo nano<br>
+		<img width="513" height="246" alt="image" src="https://github.com/user-attachments/assets/5c016d53-6ce5-48fa-9d31-e2d6fc7c6f59" /><br>
+		Probamos el Email<br>
+		<img width="784" height="83" alt="image" src="https://github.com/user-attachments/assets/01416bbf-b79e-4e1b-8b27-8560d86c41e6" /><br>
+		Ahora probamos los números del 0 al 255<br>
+		<img width="772" height="87" alt="image" src="https://github.com/user-attachments/assets/cc293611-a4b9-44f6-956a-db4a66090936" /><br>
+		Escribe una directiva para redireccionar todos los GIF a ficheros JPEG en otro servidor RedirectMatch "(.*)\.gif$" "$1.jpg"<br>
+		Para probar la redirección<br>
+		<img width="779" height="69" alt="image" src="https://github.com/user-attachments/assets/104fb1b2-8c73-40f2-babd-fafc96e586b8" /><br>7
+  		Dentro de VirtualHost ponemos lo siguiente<br>
+		<img width="699" height="421" alt="image" src="https://github.com/user-attachments/assets/e0b0fb0e-38f2-4589-8bcb-825e07bab260" /><br>7
+  		Reiniciamos Apache<br>
+		<img width="748" height="24" alt="image" src="https://github.com/user-attachments/assets/bf0c9557-197d-4259-a87a-b6c431a1988e" /><br>
+		
+-7 Actividad #5 <br>
+	Reescritura<br>
+		Editamos el archivo de configuración<br>
+		<img width="747" height="454" alt="image" src="https://github.com/user-attachments/assets/045b31df-868c-4887-abd3-79dad8d1fc69" /><br>
+		Creamos el archivo  /var/www/html/operacion.php<br>
+		<img width="747" height="36" alt="image" src="https://github.com/user-attachments/assets/e9a711a3-f14f-4e73-b486-83e93595f1a6" /><br>
+		Pegamos lo siguiente<br>
+		<img width="718" height="446" alt="image" src="https://github.com/user-attachments/assets/343374db-8e9b-4091-ac16-cb358f7cd6cd" /><br>
+		<img width="673" height="452" alt="image" src="https://github.com/user-attachments/assets/4d95e92c-8235-4eb3-9cf5-c93cd750a445" /><br>
+		Reiniciamos<br>
+		<img width="736" height="26" alt="image" src="https://github.com/user-attachments/assets/5843a265-954a-4b2a-a4df-79dd6b637aba" /><br>
 
-  	
+		
+
+		
+
+		
+		
+
+
+		
+
+		
+
+		
+
+
 
 
 
