@@ -307,46 +307,12 @@ Ahora le damos a crear nombre de host<br>
 <img width="888" height="360" alt="image" src="https://github.com/user-attachments/assets/62e27cbb-a188-43dc-8f97-627517e5498c" /><br>
 En host pondremos el nombre de la maquina nuestra ip publica y le damos a crear<br>
 <img width="1466" height="404" alt="image" src="https://github.com/user-attachments/assets/fa531075-1654-4f21-b7e9-d3740bab9454" /><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		 
-En la actividad 7 activar mod_rewrite antes que nada
-	      
-
- 
-
-          
-          
-    
-          
+Ya se habrá creado<br>
+<img width="1256" height="211" alt="image" src="https://github.com/user-attachments/assets/21ce05f8-e029-4118-8fbc-a256b2370ebb" /><br>
+Ahora instalamos cerbtbot pero antes hacemos update<br>
+<img width="473" height="34" alt="image" src="https://github.com/user-attachments/assets/36ded2aa-3f78-4aab-a8d1-d0c7ed734ba0" /><br>
+<img width="798" height="26" alt="image" src="https://github.com/user-attachments/assets/7b616108-d377-4bf2-ad44-1d48c0aacd42" /><br>
+Validamos nuestro dominio<br>
+<img width="512" height="36" alt="image" src="https://github.com/user-attachments/assets/d4a137fe-27b8-40e5-b063-7831ad2e7975" /><br>
+Aqui vemos que se ha creado correctamente<br>
+<img width="1487" height="1023" alt="image" src="https://github.com/user-attachments/assets/1b46e0aa-2f25-4e9c-b519-4801f417ebf8" /><br>
