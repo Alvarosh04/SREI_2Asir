@@ -241,43 +241,103 @@ Entre las más conocidas destacan LAMP y WISA, que se diferencian principalmente
 	Habilitamos los nuevos archivos VirtualHost<br>
 	<img width="540" height="68" alt="image" src="https://github.com/user-attachments/assets/b419da7d-1851-4b13-b000-102f6926e9e4" /><br>
 	
+-9 Actividad #7: Autenticación<br>
+	Creamos el primer usuario<br>
+	<img width="574" height="110" alt="image" src="https://github.com/user-attachments/assets/d3fcdafb-0ca0-4eee-bca4-d3050ef0dc04" /><br>
+	Los demas usuarios de la misma forma pero sin poner -c<br>
+	<img width="559" height="419" alt="image" src="https://github.com/user-attachments/assets/937e0523-898c-4082-837b-15bce2bce215" /><br>
+	Creamos el archivo para definir los grupos<br>
+	<img width="572" height="52" alt="image" src="https://github.com/user-attachments/assets/ca4336d5-8d35-4327-abb8-2131d7525dac" /><br>
+	Definimos los grupos dentro del archivo en el que en el grupo uno estara el usuario 1 y 2 y en el grupo 2 estará e resto<br>
+	<img width="411" height="88" alt="image" src="https://github.com/user-attachments/assets/7d36517a-9c56-4606-9d82-f002c51bad44" /><br>
+	Creamos los directorios de privado<br>
+	<img width="750" height="51" alt="image" src="https://github.com/user-attachments/assets/b418c401-ae69-4de8-8324-ad59f4ad2a20" /><br>
+	Ahora vamos a aplicar las reglas para ello editamos el archivo de configuración:<br>
+	<img width="759" height="46" alt="image" src="https://github.com/user-attachments/assets/ea8a0f62-604d-4136-8cb1-daf8240b30d1" /><br>
+	Aqui ponemos que en el privado1 tenga acceso todos los usuarios y en privado2 permita el acceso sólo a los usuarios del grupo1.<br>
+	<img width="595" height="422" alt="image" src="https://github.com/user-attachments/assets/29458767-92f0-471b-988c-a07aa586babf" /><br>
+	Deberemo0s de activar los distintos modulos<br>
+	<img width="730" height="334" alt="image" src="https://github.com/user-attachments/assets/35110545-9ef1-4838-a53e-c6b9beb2457c" /><br>
+	Ahora hacemos una prueba en el privado1<br>
+	<img width="496" height="325" alt="image" src="https://github.com/user-attachments/assets/3a83f0f0-4e0f-4108-8c2c-d34be613eecb" /><br>
+	Vemos que nos deja entrar con cualquiera<br>
+	<img width="696" height="115" alt="image" src="https://github.com/user-attachments/assets/6bb1ffc7-0d74-426b-8dc4-87ef97b59146" /><br>
+	Ahora en privado 2<br>
+	<img width="636" height="337" alt="image" src="https://github.com/user-attachments/assets/9bc5a1c3-74d3-48ef-b393-155b679ec09f" /><br>
+	Aqui vemos que no se puede entrar con usuario 3 y te vuelve a pedir crednciales<br>
+	<img width="606" height="337" alt="image" src="https://github.com/user-attachments/assets/590edf5f-fc4e-4b00-ac79-c7543acc385a" /><br>
+	Ahora vamos con el satisfy Any, que lo que hace es que entres sin contraseña para ello editamos el archivo donde tenemos el privado2<br>
+	<img width="587" height="356" alt="image" src="https://github.com/user-attachments/assets/eff70339-ec22-43ce-8f47-e98fa7386f48" /><br>
+	Ahora con satisfy All<br>
+	<img width="498" height="260" alt="image" src="https://github.com/user-attachments/assets/b323bdc9-45ff-4032-a72b-aaf2c2a88e3b" /><br>
+- 10 Actividad #8
+  	Activamos el modulo Digest<br>
+	<img width="705" height="130" alt="image" src="https://github.com/user-attachments/assets/871df680-6211-4cc0-af73-9b80baf36952" /><br>
+	Creamos los directorios<br>
+	<img width="758" height="86" alt="image" src="https://github.com/user-attachments/assets/55a3f44b-4f12-46e5-8753-fe1b81b4c8a4" /><br>
+	Creamos los usuarios y dominios<br>
+	<img width="752" height="337" alt="image" src="https://github.com/user-attachments/assets/00ae9ba7-d6b7-4a7f-a8ee-402389e2134c" /><br>
+	Nos vamos a ApacheAl.conf para editarlo y poner lo siguiente<br>
+	<img width="655" height="367" alt="image" src="https://github.com/user-attachments/assets/92a23ba5-35d4-4239-bdd3-8b879cffb6cb" /><br>
+
+- 11 Actividad #10<br>
+	En AWS instalamos una maquina ubuntu para instalar apache pero primero hacemos un update<br>
+	<img width="1121" height="566" alt="image" src="https://github.com/user-attachments/assets/6d741eaf-fa8b-44e4-8865-5ab487a4e837" /><br>
+	Ahora instalamos apache<br>
+<img width="706" height="157" alt="image" src="https://github.com/user-attachments/assets/3c689f3e-acb3-4f5a-8451-bb80822b9cee" /><br>
+Activamos el modulo SSL<br>
+<img width="1022" height="211" alt="image" src="https://github.com/user-attachments/assets/1e2b61f3-fec7-488d-882b-0d60599627c3" /><br>
+Reiniciamos apache<br>
+<img width="712" height="123" alt="image" src="https://github.com/user-attachments/assets/3cd0140c-39ed-4712-abc5-73edc7ed5a75" /><br>
+Ahora generamos el certificado y la clave para ello ponemos lo siguiente<br>
+<img width="1708" height="109" alt="image" src="https://github.com/user-attachments/assets/8ac99e6c-b6ad-4a7f-b1ee-9cf404ea6ab5" /><br>
+Ahora tenemos que en los archivos de configuracion decir donde tenemos los archivos nuevos<br>
+<img width="842" height="19" alt="image" src="https://github.com/user-attachments/assets/07d52d90-b2c6-466d-88fd-8d4d3e926d70" /><br>
+Modificamos estas dos lineas para dar la ubicación correcta<br>
+<img width="812" height="743" alt="image" src="https://github.com/user-attachments/assets/71de3cc4-d8c6-45c1-a753-d5c40680d8eb" /><br>
+Activamos SSL y reiniciamos<br>
+<img width="880" height="107" alt="image" src="https://github.com/user-attachments/assets/57a83c9e-7a99-4bf7-8ea2-f41dd97782a0" /><br>
+Entramos en el navegador ponemos https://(nuestra ip publica y vemos que no es segura nuestra web<br>
+<img width="1423" height="675" alt="image" src="https://github.com/user-attachments/assets/2a1c3f83-de7f-44ad-9f61-febfb36ec0bf" /><br>
+Para que nuestra web sea segura vamos a esta otra web y nos registraremos<br>
+<img width="1907" height="965" alt="image" src="https://github.com/user-attachments/assets/385fbebc-cd9d-4c3b-89b0-fb5ad40100b8" /><br>
+Una vez registrado entraremos donde pone Nombres de host DNS dinamicos<br>
+<img width="1911" height="820" alt="image" src="https://github.com/user-attachments/assets/503fe207-3bbf-4b9f-947b-87ed890f5ff9" /><br>
+Ahora le damos a crear nombre de host<br>
+<img width="888" height="360" alt="image" src="https://github.com/user-attachments/assets/62e27cbb-a188-43dc-8f97-627517e5498c" /><br>
+En host pondremos el nombre de la maquina nuestra ip publica y le damos a crear<br>
+<img width="1466" height="404" alt="image" src="https://github.com/user-attachments/assets/fa531075-1654-4f21-b7e9-d3740bab9454" /><br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
 
 
-	
-
 
 	
 
 
-		
-
-		
-
-		
-		
-
-
-		
-
-		
-
-		
 
 
 
 
 
-		
-
-		
 
 
 
 
-		
+
 
 
 		 
