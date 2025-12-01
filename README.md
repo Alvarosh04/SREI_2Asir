@@ -40,7 +40,7 @@ Ejemplo 3-dummy web server
 [Servidor corriendo en consola](3_1.png) | Aqui vemos el servidor corriendo en consola 
 [Página en el navegador](3.png) | Aqui vemos la página en el navegador 
 
-
+Parctica trimestre | uno
 ---------|----------
 [Practica_Primer_Trimestre.pdf](Practica_Primer_Trimestre.pdf) | Aqui vemos el pdf del trabajo trimestral
 
