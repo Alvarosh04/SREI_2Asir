@@ -40,6 +40,11 @@ Ejemplo 3-dummy web server
 [Servidor corriendo en consola](3_1.png) | Aqui vemos el servidor corriendo en consola 
 [Página en el navegador](3.png) | Aqui vemos la página en el navegador 
 
+
+---------|----------
+[Practica_Primer_Trimestre.pdf](Practica_Primer_Trimestre.pdf) | Aqui vemos el pdf del trabajo trimestral
+
+
 ## Ejercicios tema 1
 ## Actividad 1
 - 1 La arquitectura Web es un modelo compuesto de tres capas,¿cuáles son y cuál es  la función de cada una de ellas?
@@ -316,7 +321,3 @@ Validamos nuestro dominio<br>
 <img width="512" height="36" alt="image" src="https://github.com/user-attachments/assets/d4a137fe-27b8-40e5-b063-7831ad2e7975" /><br>
 Aqui vemos que se ha creado correctamente<br>
 <img width="1487" height="1023" alt="image" src="https://github.com/user-attachments/assets/1b46e0aa-2f25-4e9c-b519-4801f417ebf8" /><br>
-
-
-
-Practica_Primer_Trimestre.pdf
