@@ -1,0 +1,13 @@
+Actividad 1
+¿Qué es TLD? ¿Cómo se clasifican los dominios de nivel superior?, Pon algunos ejemplos.
+TLD significa Top-Level Domain (Dominio de Nivel Superior). Es la parte más general de un dominio y se encuentra en el extremo derecho (separado por un punto). 
+Por ejemplo, en google.com, el TLD es com. Están en la cima de la jerarquía del DNS.<br>
+Clasificación:<br>
+- gTLD (Generic Top-Level Domains): Dominios genéricos no asociados a un país.
+- ccTLD (Country Code Top-Level Domains): Dominios de dos letras asociados a países o territorios específicos.<br>
+
+¿Qué es FQDN?, Pon algún ejemplo de FQDN
+
+¿Qué son los root servers? , ¿Cuántos root servers hay?, ¿Cuántos servidores raíz físicos existen y dónde se encuentran?, ¿Qué es anycast?
+
+¿Qué es un archivo de zona (zone file)? Indica para qué sirven los registros de un archivo de zona. Pon un ejemplo de un archivo de zona e interpreta la información almacenada
