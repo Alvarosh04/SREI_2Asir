@@ -8,3 +8,10 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
    - El Soporte Python para Apache<br>
    <img width="683" height="184" alt="image" src="https://github.com/user-attachments/assets/6ee0a960-c85d-4819-842b-0381ab6cbe77" /><br>
    - Y por ultimo las Herramientas de red y seguridad<br>
+   <img width="971" height="265" alt="image" src="https://github.com/user-attachments/assets/cb3c6117-7bb0-4f01-98ab-3f60a6c6719f" /><br>
+2. Para que todo funcione tenemos que habilitar los siguientes modulos
+    •	userdir: Permite que http://ip/~usuario funcione.
+   •	rewrite: Para URLs amigables.
+   •	ssl: Para conexiones seguras.
+
+
