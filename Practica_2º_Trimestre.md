@@ -16,14 +16,14 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
         <img width="1193" height="298" alt="image" src="https://github.com/user-attachments/assets/efebdb6f-4d96-446d-9789-c73615038412" /><br>
       - Ponemos una contraseña que la mía sera 123456 y la confirmamos<br>
       <img width="1186" height="212" alt="image" src="https://github.com/user-attachments/assets/05fe4842-611e-444e-be2b-889cd176346e" /><br>
-
+      
    2. Para que todo funcione tenemos que habilitar los siguientes modulos <br>
      - El comando a2enmod significa Apache2 Enable Module.<br>
      <img width="495" height="149" alt="image" src="https://github.com/user-attachments/assets/638ce44d-926f-4386-a238-464099a9b6ee" /><br>
      • cgi (Common Gateway Interface): Es un protocolo estándar que permite a Apache interactuar con programas externos. Se usa principalmente para ejecutar scripts antiguos o programas escritos en C++ o Perl que generan contenido web dinámico. Aunque es "clásico", es fundamental para la compatibilidad con herramientas de administración de sistemas.<br>
      • rewrite: Es uno de los módulos más importantes. Permite reescribir URLs al vuelo.<br>
      • wsgi (Web Server Gateway Interface): Este es el módulo específico para Python. Actúa como un puente de alta velocidad entre el servidor web Apache y las aplicaciones creadas con frameworks modernos como Django o Flask. Sin este módulo, Apache vería un archivo de Python como simple texto en lugar de ejecutarlo como una aplicación web.<br>
-      - 
+     
    
 
 
