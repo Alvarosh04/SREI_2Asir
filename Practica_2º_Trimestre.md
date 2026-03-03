@@ -8,7 +8,7 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
               •	apache2: Es el servidor HTTP. Es el motor que se encarga de recibir las peticiones de los navegadores y servir las páginas web.<br>
               •	php: Es el lenguaje de programación de lado del servidor. Permite que las webs no sean solo texto estático, sino que puedan procesar datos (como formularios o inicios de sesión).<br>
               •	libapache2-mod-php: Es el módulo conector. Permite que el servidor Apache "entienda" y ejecute el código PHP. Sin esto, Apache simplemente mostraría el código fuente de la web en lugar de ejecutarlo.<br>
-              - El codigo seria el siguiente<br>
+         - El codigo seria el siguiente<br>
        <img width="1201" height="25" alt="image" src="https://github.com/user-attachments/assets/76ff6065-c5cd-45aa-865b-d7cc993c1196" /><br>
       - Cuando instalamos todo nos salta la configuración de phpmyadmin, primero seleccionamos apache2<br>
       <img width="1023" height="318" alt="image" src="https://github.com/user-attachments/assets/05b7bcff-7c27-4b06-abec-223a0b5841c5" /><br>
