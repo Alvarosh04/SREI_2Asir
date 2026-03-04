@@ -27,7 +27,24 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
    3. Ahora vamos a empezar con los script<br>
     - He creado cuatro archivos en el servidor. El cuarto es el que une todo para que, con un solo comando, se cree el cliente completo.<br>
        A. Script de DNS: crear_dns.sh<br>
-         - Este script automatiza la resolución directa e inversa<br>
+         - Este script automatiza la resolución directa e inversa y se encarga de que el nombre (www.ejemplo.marisma.local) existiera<br>
+<img width="719" height="484" alt="image" src="https://github.com/user-attachments/assets/f4c81e0a-b8bd-4e19-aa77-edff623c7668" /><br>
+         - Se le da permisos de ejecución y aquí esta la comprobación<br>
+<img width="531" height="63" alt="image" src="https://github.com/user-attachments/assets/7dbf56aa-0271-4b57-9751-6852c34407a3" /><br>
+       B. Script de Web: crear_vhost.sh
+         - Este script configura el alojamiento, la página por defecto y activa PHP y Python y se encarga de que, al entrar en esa dirección, Apache sepa qué archivos mostrar.
+<img width="1219" height="726" alt="image" src="https://github.com/user-attachments/assets/17208819-0cc0-4f11-b597-bb2db1774123" /><br>
+<img width="1264" height="715" alt="image" src="https://github.com/user-attachments/assets/3b100b8b-fbb8-4a5c-bce0-a8e9a40fbfaa" /><br>
+<img width="558" height="204" alt="image" src="https://github.com/user-attachments/assets/29e667cc-1933-45bb-be03-6967594c0ec3" /><br>
+           - Aquí esta la comprobación de que se crea correctamente<br>
+           <img width="582" height="121" alt="image" src="https://github.com/user-attachments/assets/b60cf6a7-cfb2-47a3-90d6-e5fc39c5f8f6" /><br>
+           - Con el comando curl http://localhost para que salga el HTML puro<br>
+           <img width="1214" height="739" alt="image" src="https://github.com/user-attachments/assets/f6adc394-35c7-44a6-b3e3-bcd98f2f2c54" /><br>
+           - También se han creado los archivos correctos<br>
+           <img width="459" height="85" alt="image" src="https://github.com/user-attachments/assets/ea830ef1-d717-4dfb-9657-6d2bf526262d" /><br>
+
+
+
 
 
 
