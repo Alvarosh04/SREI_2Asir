@@ -23,8 +23,11 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
      • cgi (Common Gateway Interface): Es un protocolo estándar que permite a Apache interactuar con programas externos. Se usa principalmente para ejecutar scripts antiguos o programas escritos en C++ o Perl que generan contenido web dinámico. Aunque es "clásico", es fundamental para la compatibilidad con herramientas de administración de sistemas.<br>
      • rewrite: Es uno de los módulos más importantes. Permite reescribir URLs al vuelo.<br>
      • wsgi (Web Server Gateway Interface): Este es el módulo específico para Python. Actúa como un puente de alta velocidad entre el servidor web Apache y las aplicaciones creadas con frameworks modernos como Django o Flask. Sin este módulo, Apache vería un archivo de Python como simple texto en lugar de ejecutarlo como una aplicación web.<br>
-     
-   
+
+   3. Ahora vamos a empezar con los script<br>
+    - He creado cuatro archivos en el servidor. El cuarto es el que une todo para que, con un solo comando, se cree el cliente completo.<br>
+       A. Script de DNS: crear_dns.sh<br>
+         - Este script automatiza la resolución directa e inversa<br>
 
 
 
