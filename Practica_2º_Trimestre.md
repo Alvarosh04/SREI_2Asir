@@ -26,12 +26,16 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
 
    3. Ahora vamos a empezar con los script<br>
     - He creado cuatro archivos en el servidor. El cuarto es el que une todo para que, con un solo comando, se cree el cliente completo.<br>
-       A. Script de DNS: crear_dns.sh<br>
+    A. Script de DNS: crear_dns.sh<br>
          - Este script automatiza la resolución directa e inversa y se encarga de que el nombre (www.ejemplo.marisma.local) existiera<br>
 <img width="719" height="484" alt="image" src="https://github.com/user-attachments/assets/f4c81e0a-b8bd-4e19-aa77-edff623c7668" /><br>
          - Se le da permisos de ejecución y aquí esta la comprobación<br>
 <img width="531" height="63" alt="image" src="https://github.com/user-attachments/assets/7dbf56aa-0271-4b57-9751-6852c34407a3" /><br>
-       B. Script de Web: crear_vhost.sh<br>
+         - En la prueba desde el cliente en un ubuntu Desktop, primero entramos en la configuración host para decirle donde encontrar el servidor<br>
+         <img width="766" height="273" alt="image" src="https://github.com/user-attachments/assets/77c4b7a4-31ce-4981-8cba-16ad3dc36b03" /><br>
+         - Entramos en el navegador ponemos el nombre de nuestra pagina<br>
+         <img width="552" height="562" alt="image" src="https://github.com/user-attachments/assets/e009e438-b8ef-4cb5-bdd9-ef13e598b181" /><br>
+    B. Script de Web: crear_vhost.sh<br>
          - Este script configura el alojamiento, la página por defecto y activa PHP y Python y se encarga de que, al entrar en esa dirección, Apache sepa qué archivos mostrar.<br>
 <img width="1219" height="726" alt="image" src="https://github.com/user-attachments/assets/17208819-0cc0-4f11-b597-bb2db1774123" /><br>
 <img width="1264" height="715" alt="image" src="https://github.com/user-attachments/assets/3b100b8b-fbb8-4a5c-bce0-a8e9a40fbfaa" /><br>
@@ -40,9 +44,9 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
            <img width="582" height="121" alt="image" src="https://github.com/user-attachments/assets/b60cf6a7-cfb2-47a3-90d6-e5fc39c5f8f6" /><br>
          - Con el comando curl http://localhost para que salga el HTML puro<br>
            <img width="1214" height="739" alt="image" src="https://github.com/user-attachments/assets/f6adc394-35c7-44a6-b3e3-bcd98f2f2c54" /><br>
-           - También se han creado los archivos correctos<br>
+         - También se han creado los archivos correctos<br>
            <img width="459" height="85" alt="image" src="https://github.com/user-attachments/assets/ea830ef1-d717-4dfb-9657-6d2bf526262d" /><br>
-      C. Script de Usuario y SQL:<br>
+    C. Script de Usuario y SQL:<br>
          -Este Script crea el usuario para FTP/SSH y la base de datos con todos los permisos y con este paso, se permite que cada sitio tenga su propio espacio para guardar datos y su propio acceso de administración.<br>
          <img width="821" height="602" alt="image" src="https://github.com/user-attachments/assets/c8ef7399-df78-4fb4-9132-c700a4a5d442" /><br>
          - Esta es la comprobación de que se crea correctamente<br>
@@ -52,6 +56,12 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
          - Aqui vemos que se ha creado correctamente la base de datos<br>
          <img width="1229" height="377" alt="image" src="https://github.com/user-attachments/assets/a9bcb867-718c-41bc-b0d9-0249d84a200e" /><br>
          - Ahora comprobamos que se pueden introducir datos con el usuario pepe<br>
+         <img width="617" height="240" alt="image" src="https://github.com/user-attachments/assets/d3ea2b36-ab2c-4045-b6cb-db93bc851b45" /><br>
+         - Desde el desktop intentamos conectar a la carpeta de pepe mediante sftp y vemos que deja perfectamente<br>
+         <img width="1218" height="688" alt="image" src="https://github.com/user-attachments/assets/3426231e-7bd2-4a99-bd65-3e6c86ab7cc7" /><br>
+   D. Script Integrador: alta_cliente.sh<br>
+         - 
+
 
 
 
