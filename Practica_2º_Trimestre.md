@@ -49,8 +49,9 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
          <img width="591" height="72" alt="image" src="https://github.com/user-attachments/assets/83fc8201-7a92-43ea-ae3a-4d59861aa700" /><br>
          - Aqui vemos que ha creado y pone pepe pepe en vez de root root<br>
          <img width="475" height="111" alt="image" src="https://github.com/user-attachments/assets/81507c90-32f6-4871-b7d2-e23463ebb79c" /><br>
-         - Aqui vemos que se ha creado correctamente<br>
+         - Aqui vemos que se ha creado correctamente la base de datos<br>
          <img width="1229" height="377" alt="image" src="https://github.com/user-attachments/assets/a9bcb867-718c-41bc-b0d9-0249d84a200e" /><br>
+         - Ahora comprobamos que se pueden introducir datos con el usuario pepe<br>
 
 
 
