@@ -36,13 +36,26 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
 <img width="1219" height="726" alt="image" src="https://github.com/user-attachments/assets/17208819-0cc0-4f11-b597-bb2db1774123" /><br>
 <img width="1264" height="715" alt="image" src="https://github.com/user-attachments/assets/3b100b8b-fbb8-4a5c-bce0-a8e9a40fbfaa" /><br>
 <img width="558" height="204" alt="image" src="https://github.com/user-attachments/assets/29e667cc-1933-45bb-be03-6967594c0ec3" /><br>
-           - Aquí esta la comprobación de que se crea correctamente<br>
+         - Aquí esta la comprobación de que se crea correctamente<br>
            <img width="582" height="121" alt="image" src="https://github.com/user-attachments/assets/b60cf6a7-cfb2-47a3-90d6-e5fc39c5f8f6" /><br>
-           - Con el comando curl http://localhost para que salga el HTML puro<br>
+         - Con el comando curl http://localhost para que salga el HTML puro<br>
            <img width="1214" height="739" alt="image" src="https://github.com/user-attachments/assets/f6adc394-35c7-44a6-b3e3-bcd98f2f2c54" /><br>
            - También se han creado los archivos correctos<br>
            <img width="459" height="85" alt="image" src="https://github.com/user-attachments/assets/ea830ef1-d717-4dfb-9657-6d2bf526262d" /><br>
+      C. Script de Usuario y SQL:<br>
+         -Este Script crea el usuario para FTP/SSH y la base de datos con todos los permisos y con este paso, se permite que cada sitio tenga su propio espacio para guardar datos y su propio acceso de administración.<br>
+         <img width="821" height="602" alt="image" src="https://github.com/user-attachments/assets/c8ef7399-df78-4fb4-9132-c700a4a5d442" /><br>
+         - Esta es la comprobación de que se crea correctamente<br>
+         <img width="591" height="72" alt="image" src="https://github.com/user-attachments/assets/83fc8201-7a92-43ea-ae3a-4d59861aa700" /><br>
+         - Aqui vemos que ha creado y pone pepe pepe en vez de root root<br>
+         <img width="475" height="111" alt="image" src="https://github.com/user-attachments/assets/81507c90-32f6-4871-b7d2-e23463ebb79c" /><br>
+         - Aqui vemos que se ha creado correctamente<br>
+         <img width="1229" height="377" alt="image" src="https://github.com/user-attachments/assets/a9bcb867-718c-41bc-b0d9-0249d84a200e" /><br>
 
+
+
+
+      
 
 
 
