@@ -60,7 +60,7 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
          - Desde el desktop intentamos conectar a la carpeta de pepe mediante sftp y vemos que deja perfectamente<br>
          <img width="1218" height="688" alt="image" src="https://github.com/user-attachments/assets/3426231e-7bd2-4a99-bd65-3e6c86ab7cc7" /><br>
    D. Script Integrador: alta_cliente.sh<br>
-         - 
+         - En este Script se automatiza todo el proceso incluyendo los otros script dentro de este<br>
 
 
 
