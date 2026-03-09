@@ -18,7 +18,7 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
       - A veces puede ocurrir que phpMyAdmin no se activa solo en Apache asique ponemos estos tres comandos para asegurar<br>
       <img width="843" height="109" alt="image" src="https://github.com/user-attachments/assets/06e64658-2b0d-4127-8190-16ecce934caf" /><br>
       - Ahora vamos al cliente y ponemos en la barra de direcciones en mi caso: http://192.168.195.43/phpmyadmin y vemos que pepe puede conectarse y ver solo su base de datos<br>
-      - <img width="1141" height="724" alt="image" src="https://github.com/user-attachments/assets/877880fc-bd72-4cf6-9fda-0afd501f706f" /><br>
+      <img width="1141" height="724" alt="image" src="https://github.com/user-attachments/assets/877880fc-bd72-4cf6-9fda-0afd501f706f" /><br>
       - Ahora instalamos el servidor FTP<br>
       <img width="602" height="124" alt="image" src="https://github.com/user-attachments/assets/fff426da-0da8-4682-9ade-b2a788b4aec8" /><br>
       - Creamos la "llave" de seguridad<br>
