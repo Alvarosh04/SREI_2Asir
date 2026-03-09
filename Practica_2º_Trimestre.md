@@ -1,4 +1,3 @@
-Fase 1: Preparación del Entorno y LAMP<br>
 Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el soporte para Python.<br>
    1. Para ello vamos ejecutanto los siguientes comandos:<br>
       - Primero hacemos un update<br>
@@ -59,7 +58,7 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
          <img width="617" height="240" alt="image" src="https://github.com/user-attachments/assets/d3ea2b36-ab2c-4045-b6cb-db93bc851b45" /><br>
          - Desde el desktop intentamos conectar a la carpeta de pepe mediante sftp y vemos que deja perfectamente<br>
          <img width="1218" height="688" alt="image" src="https://github.com/user-attachments/assets/3426231e-7bd2-4a99-bd65-3e6c86ab7cc7" /><br>
-   D. Script Integrador: alta_cliente.sh<br>
+    D. Script Integrador: alta_cliente.sh<br>
          - En este Script se automatiza todo el proceso incluyendo los otros script dentro de este<br>
          <img width="760" height="545" alt="image" src="https://github.com/user-attachments/assets/01fbf1b9-1453-43ba-86f1-23c443fbb1dc" /><br>
          - Aqui esta que se ha creado correctamente<br>
@@ -73,7 +72,8 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
          - He creado un txt en el escritorio en local y lo he pasado a la web para comprobar de que da permisos correctamente<br>
          <img width="1139" height="494" alt="image" src="https://github.com/user-attachments/assets/90bf6bae-efcc-43a4-9edc-02dc5bb978ea" /><br>
          <img width="929" height="495" alt="image" src="https://github.com/user-attachments/assets/544e6e37-5ef6-4ded-82b0-5a24046b2544" /><br>
-
+         
+      
 
 
 
