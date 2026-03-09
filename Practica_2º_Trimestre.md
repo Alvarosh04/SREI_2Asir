@@ -18,7 +18,29 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
       - Ahora instalamos Fel servidor FTP<br>
       <img width="602" height="124" alt="image" src="https://github.com/user-attachments/assets/fff426da-0da8-4682-9ade-b2a788b4aec8" /><br>
       - Creamos la "llave" de seguridad<br>
-      
+      <img width="1226" height="365" alt="image" src="https://github.com/user-attachments/assets/8291e999-fe27-41d1-9349-00baa5ee632d" /><br>
+      - Ahora vamos al archivo de configuracion de vsftpd para configurar el cifrado<br>
+      <img width="914" height="726" alt="image" src="https://github.com/user-attachments/assets/d656ba7c-1ad9-437b-8c29-f7b7a60e1408" /><br>
+      - Descargamos filezilla en el cliente para comprobar<br>
+      <img width="768" height="481" alt="image" src="https://github.com/user-attachments/assets/851df737-33ba-4feb-9076-970345add5f6" /><br>
+      - Entramos en filezilla y entramos en Gestor de sitios<br>
+      <img width="1143" height="730" alt="image" src="https://github.com/user-attachments/assets/6b0eba6e-1d8d-4a7a-b036-edcebf526292" /><br>
+      - Creamos un nuevo sitio con la IP de la web<br>
+      <img width="1202" height="721" alt="image" src="https://github.com/user-attachments/assets/7aa4db7b-df73-43f5-b319-c7ad1a7f4063" /><br>
+      - Le damos a conectar y sale esto de certificado desconocido, que no pasa nada esta bien hecho eso demuestra que el servidor está enviando el certificado TLS correctamente, le damos a "Confiar siempre en este certificado"<br>
+      <img width="627" height="681" alt="image" src="https://github.com/user-attachments/assets/414522b9-ee81-4e43-9761-d3299cbc8874" /><br>
+      - Ahora vamos a pasar el archivo txt para ver que se puede<br>
+      <img width="798" height="426" alt="image" src="https://github.com/user-attachments/assets/110cdb73-912f-4ccc-bb62-e6a7c5bafb30" /><br>
+      - Aqui sale el mensaje que se ha pasado correctamente<br>
+      <img width="1143" height="732" alt="image" src="https://github.com/user-attachments/assets/d7320976-db6d-46f0-9031-308776e0d781" /><br>
+
+
+
+
+
+
+
+
 
       
       
