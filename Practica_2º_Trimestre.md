@@ -15,6 +15,12 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
         <img width="1193" height="298" alt="image" src="https://github.com/user-attachments/assets/efebdb6f-4d96-446d-9789-c73615038412" /><br>
       - Ponemos una contraseña que la mía sera 123456 y la confirmamos<br>
       <img width="1186" height="212" alt="image" src="https://github.com/user-attachments/assets/05fe4842-611e-444e-be2b-889cd176346e" /><br>
+      - Ahora instalamos Fel servidor FTP<br>
+      <img width="602" height="124" alt="image" src="https://github.com/user-attachments/assets/fff426da-0da8-4682-9ade-b2a788b4aec8" /><br>
+      - Creamos la "llave" de seguridad<br>
+      
+
+      
       
    2. Para que todo funcione tenemos que habilitar los siguientes modulos <br>
      - El comando a2enmod significa Apache2 Enable Module.<br>
