@@ -38,23 +38,15 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
       - Aqui sale el mensaje que se ha pasado correctamente<br>
       <img width="1143" height="732" alt="image" src="https://github.com/user-attachments/assets/d7320976-db6d-46f0-9031-308776e0d781" /><br>
 
-
-
-
-
-
-
-      
-      
-   1. Para que todo funcione tenemos que habilitar los siguientes modulos <br>
+   2. Para que todo funcione tenemos que habilitar los siguientes modulos <br>
      - El comando a2enmod significa Apache2 Enable Module.<br>
      <img width="495" height="149" alt="image" src="https://github.com/user-attachments/assets/638ce44d-926f-4386-a238-464099a9b6ee" /><br>
      • cgi (Common Gateway Interface): Es un protocolo estándar que permite a Apache interactuar con programas externos. Se usa principalmente para ejecutar scripts antiguos o programas escritos en C++ o Perl que generan contenido web dinámico. Aunque es "clásico", es fundamental para la compatibilidad con herramientas de administración de sistemas.<br>
      • rewrite: Es uno de los módulos más importantes. Permite reescribir URLs al vuelo.<br>
      • wsgi (Web Server Gateway Interface): Este es el módulo específico para Python. Actúa como un puente de alta velocidad entre el servidor web Apache y las aplicaciones creadas con frameworks modernos como Django o Flask. Sin este módulo, Apache vería un archivo de Python como simple texto en lugar de ejecutarlo como una aplicación web.<br>
 
-   2. Ahora vamos a empezar con los script<br>
-    - He creado cuatro archivos en el servidor. El cuarto es el que une todo para que, con un solo comando, se cree el cliente completo.<br>
+   3. Ahora vamos a empezar con los script<br>
+    - He creado cuatro Script en el servidor. El cuarto es el que une todo para que, con un solo comando, se cree el cliente completo.<br>
     A. Script de DNS: crear_dns.sh<br>
          - Este script automatiza la resolución directa e inversa y se encarga de que el nombre (www.ejemplo.marisma.local) existiera<br>
 <img width="719" height="484" alt="image" src="https://github.com/user-attachments/assets/f4c81e0a-b8bd-4e19-aa77-edff623c7668" /><br>
