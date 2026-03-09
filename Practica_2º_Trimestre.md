@@ -37,6 +37,9 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
       <img width="798" height="426" alt="image" src="https://github.com/user-attachments/assets/110cdb73-912f-4ccc-bb62-e6a7c5bafb30" /><br>
       - Aqui sale el mensaje que se ha pasado correctamente<br>
       <img width="1143" height="732" alt="image" src="https://github.com/user-attachments/assets/d7320976-db6d-46f0-9031-308776e0d781" /><br>
+      - Tambien vemos que la resolucion directa e inversa funciona<br>
+      <img width="519" height="64" alt="image" src="https://github.com/user-attachments/assets/d3f664c2-a1b9-4cdb-950c-bea34f5e343b" /><br>
+
 
    2. Para que todo funcione tenemos que habilitar los siguientes modulos <br>
      - El comando a2enmod significa Apache2 Enable Module.<br>
