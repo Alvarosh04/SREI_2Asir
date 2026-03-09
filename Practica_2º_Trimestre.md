@@ -15,7 +15,11 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
         <img width="1193" height="298" alt="image" src="https://github.com/user-attachments/assets/efebdb6f-4d96-446d-9789-c73615038412" /><br>
       - Ponemos una contraseña que la mía sera 123456 y la confirmamos<br>
       <img width="1186" height="212" alt="image" src="https://github.com/user-attachments/assets/05fe4842-611e-444e-be2b-889cd176346e" /><br>
-      - Ahora instalamos Fel servidor FTP<br>
+      - A veces puede ocurrir que phpMyAdmin no se activa solo en Apache asique ponemos estos tres comandos para asegurar<br>
+      <img width="843" height="109" alt="image" src="https://github.com/user-attachments/assets/06e64658-2b0d-4127-8190-16ecce934caf" /><br>
+      - Ahora vamos al cliente y ponemos en la barra de direcciones en mi caso: http://192.168.195.43/phpmyadmin y vemos que pepe puede conectarse y ver solo su base de datos<br>
+      - <img width="1141" height="724" alt="image" src="https://github.com/user-attachments/assets/877880fc-bd72-4cf6-9fda-0afd501f706f" /><br>
+      - Ahora instalamos el servidor FTP<br>
       <img width="602" height="124" alt="image" src="https://github.com/user-attachments/assets/fff426da-0da8-4682-9ade-b2a788b4aec8" /><br>
       - Creamos la "llave" de seguridad<br>
       <img width="1226" height="365" alt="image" src="https://github.com/user-attachments/assets/8291e999-fe27-41d1-9349-00baa5ee632d" /><br>
@@ -33,8 +37,6 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
       <img width="798" height="426" alt="image" src="https://github.com/user-attachments/assets/110cdb73-912f-4ccc-bb62-e6a7c5bafb30" /><br>
       - Aqui sale el mensaje que se ha pasado correctamente<br>
       <img width="1143" height="732" alt="image" src="https://github.com/user-attachments/assets/d7320976-db6d-46f0-9031-308776e0d781" /><br>
-      - Ahora vamos aa instalar phpmyadmin para que el cliente pepe gestione su base de datos de forma visual desde el navegador.<br>
-      <img width="741" height="325" alt="image" src="https://github.com/user-attachments/assets/8c7b0635-2689-45e6-80cb-6833b1c9092b" /><br>
 
 
 
@@ -44,14 +46,14 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
 
       
       
-   2. Para que todo funcione tenemos que habilitar los siguientes modulos <br>
+   1. Para que todo funcione tenemos que habilitar los siguientes modulos <br>
      - El comando a2enmod significa Apache2 Enable Module.<br>
      <img width="495" height="149" alt="image" src="https://github.com/user-attachments/assets/638ce44d-926f-4386-a238-464099a9b6ee" /><br>
      • cgi (Common Gateway Interface): Es un protocolo estándar que permite a Apache interactuar con programas externos. Se usa principalmente para ejecutar scripts antiguos o programas escritos en C++ o Perl que generan contenido web dinámico. Aunque es "clásico", es fundamental para la compatibilidad con herramientas de administración de sistemas.<br>
      • rewrite: Es uno de los módulos más importantes. Permite reescribir URLs al vuelo.<br>
      • wsgi (Web Server Gateway Interface): Este es el módulo específico para Python. Actúa como un puente de alta velocidad entre el servidor web Apache y las aplicaciones creadas con frameworks modernos como Django o Flask. Sin este módulo, Apache vería un archivo de Python como simple texto en lugar de ejecutarlo como una aplicación web.<br>
 
-   3. Ahora vamos a empezar con los script<br>
+   2. Ahora vamos a empezar con los script<br>
     - He creado cuatro archivos en el servidor. El cuarto es el que une todo para que, con un solo comando, se cree el cliente completo.<br>
     A. Script de DNS: crear_dns.sh<br>
          - Este script automatiza la resolución directa e inversa y se encarga de que el nombre (www.ejemplo.marisma.local) existiera<br>
