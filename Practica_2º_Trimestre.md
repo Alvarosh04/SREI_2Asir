@@ -33,8 +33,8 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
       <img width="798" height="426" alt="image" src="https://github.com/user-attachments/assets/110cdb73-912f-4ccc-bb62-e6a7c5bafb30" /><br>
       - Aqui sale el mensaje que se ha pasado correctamente<br>
       <img width="1143" height="732" alt="image" src="https://github.com/user-attachments/assets/d7320976-db6d-46f0-9031-308776e0d781" /><br>
-
-
+      - Ahora vamos aa instalar phpmyadmin para que el cliente pepe gestione su base de datos de forma visual desde el navegador.<br>
+      <img width="741" height="325" alt="image" src="https://github.com/user-attachments/assets/8c7b0635-2689-45e6-80cb-6833b1c9092b" /><br>
 
 
 
