@@ -37,7 +37,7 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
     B. Script de Web: crear_vhost.sh<br>
          - Este script configura el alojamiento, la página por defecto y activa PHP y Python y se encarga de que, al entrar en esa dirección, Apache sepa qué archivos mostrar.<br>
 <img width="1219" height="726" alt="image" src="https://github.com/user-attachments/assets/17208819-0cc0-4f11-b597-bb2db1774123" /><br>
-<img width="1264" height="715" alt="image" src="https://github.com/user-attachments/assets/3b100b8b-fbb8-4a5c-bce0-a8e9a40fbfaa" /><br>
+<img width="1100" height="711" alt="image" src="https://github.com/user-attachments/assets/385d94f8-06a3-465f-8258-42264554c8c0" /><br>
 <img width="558" height="204" alt="image" src="https://github.com/user-attachments/assets/29e667cc-1933-45bb-be03-6967594c0ec3" /><br>
          - Aquí esta la comprobación de que se crea correctamente<br>
            <img width="582" height="121" alt="image" src="https://github.com/user-attachments/assets/b60cf6a7-cfb2-47a3-90d6-e5fc39c5f8f6" /><br>
