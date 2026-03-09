@@ -61,6 +61,25 @@ Lo primero es instalar el stack básico (Linux, Apache, MariaDB, PHP) y el sopor
          <img width="1218" height="688" alt="image" src="https://github.com/user-attachments/assets/3426231e-7bd2-4a99-bd65-3e6c86ab7cc7" /><br>
    D. Script Integrador: alta_cliente.sh<br>
          - En este Script se automatiza todo el proceso incluyendo los otros script dentro de este<br>
+         <img width="760" height="545" alt="image" src="https://github.com/user-attachments/assets/01fbf1b9-1453-43ba-86f1-23c443fbb1dc" /><br>
+         - Aqui esta que se ha creado correctamente<br>
+         <img width="711" height="212" alt="image" src="https://github.com/user-attachments/assets/af5d39c0-661f-4ff2-9c90-c25bc1d300e6" /><br>
+         - Hacemos comprobaciones desde el cliente, la primera si da ping<br>
+         <img width="767" height="177" alt="image" src="https://github.com/user-attachments/assets/2a038bbf-625a-4794-bcd4-2c6baf37c785" /><br>
+         - Desde el navegador podemos entrar<br>
+         <img width="790" height="583" alt="image" src="https://github.com/user-attachments/assets/efceea64-6d7c-4658-a2e3-ff808a34e7c7" /><br>
+         - Si le damos a verificar php info vemos que tambien funciona<br>
+         <img width="1225" height="767" alt="image" src="https://github.com/user-attachments/assets/a26d6565-fef8-4f84-834d-bfb9cbe0fc5a" /><br>
+         - He creado un txt en el escritorio en local y lo he pasado a la web para comprobar de que da permisos correctamente<br>
+         <img width="1139" height="494" alt="image" src="https://github.com/user-attachments/assets/90bf6bae-efcc-43a4-9edc-02dc5bb978ea" /><br>
+         <img width="929" height="495" alt="image" src="https://github.com/user-attachments/assets/544e6e37-5ef6-4ded-82b0-5a24046b2544" /><br>
+
+
+
+
+
+
+
 
 
 
